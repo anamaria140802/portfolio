@@ -1,0 +1,30 @@
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\appsettings.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\Studenti UPB.staticwebassets.runtime.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\Studenti UPB.exe
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\Studenti UPB.deps.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\Studenti UPB.runtimeconfig.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\Studenti UPB.dll
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\bin\Debug\net8.0\Studenti UPB.pdb
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.AssemblyInfoInputs.cache
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.AssemblyInfo.cs
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.csproj.CoreCompileInputs.cache
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.RazorAssemblyInfo.cache
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.RazorAssemblyInfo.cs
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets\msbuild.Studenti UPB.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Studenti UPB.props
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Studenti UPB.props
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Studenti UPB.props
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\scopedcss\bundle\Studenti UPB.styles.css
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\scopedcss\projectbundle\Studenti UPB.bundle.scp.css
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.dll
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\refint\Studenti UPB.dll
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.pdb
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\Studenti UPB.genruntimeconfig.cache
+C:\Users\Ana\source\repos\TPI_Project\TPI_Project\obj\Debug\net8.0\ref\Studenti UPB.dll

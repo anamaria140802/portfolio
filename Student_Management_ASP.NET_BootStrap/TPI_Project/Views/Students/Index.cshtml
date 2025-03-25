@@ -1,0 +1,53 @@
+﻿@model IEnumerable<StudentManagement.Models.Student>
+
+    @{
+    ViewData["Title"] = "Students";
+    }
+
+    <h1>Students</h1>
+
+    <form asp-action="Index" method="get" class="form-inline mb-3">
+        <div class="input-group">
+            <input type="text" name="searchString" class="form-control" placeholder="Search by name, faculty, or specialization" value="@ViewData["CurrentFilter"]">
+            <div class="input-group-append">
+                <button type="submit" class="btn btn-outline-secondary">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <p>
+        <a href="/Students/Create" class="btn btn-primary">Adauga Elev</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Facultate</th>
+                <th>Specializare</th>
+                <th>An</th>
+                <th>Seria</th>
+                <th>Grupa</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+{
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Nume)</td>
+                <td>@Html.DisplayFor(modelItem => item.Facultate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Specializare)</td>
+                <td>@Html.DisplayFor(modelItem => item.An)</td>
+                <td>@Html.DisplayFor(modelItem => item.Seria)</td>
+                <td>@Html.DisplayFor(modelItem => item.Grupa)</td>
+                <td>
+                    <a href="/Students/Details/@item.Id" class="btn btn-info">Metadate</a> |
+                    <a href="/Students/Edit/@item.Id" class="btn btn-warning">Editeaza</a> |
+                    <a href="/Students/Delete/@item.Id" class="btn btn-danger">Sterge</a> |
+                    <a href="/Students/AddInformation/@item.Id" class="btn btn-success">Adauga Metadate</a>
+                </td>
+            </tr>
+}
+        </tbody>
+    </table>

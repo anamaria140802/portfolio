@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="1078.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplicatie.AplicatieClientController">
+   <children>
+      <TabPane fx:id="tabPane" prefHeight="731.0" prefWidth="1078.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tab_Clienti" text="Clienti">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="297.0" text="Datele din tabela clienti:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tabela_Clienti" layoutX="14.0" layoutY="60.0" prefHeight="589.0" prefWidth="1050.0">
+                          <columns>
+                            <TableColumn fx:id="atribut_idclient" prefWidth="210.0" text="idClient" />
+                            <TableColumn fx:id="atribut_numeC" prefWidth="210.0" text="Nume" />
+                              <TableColumn fx:id="atribut_prenumeC" prefWidth="210.0" text="Prenume" />
+                              <TableColumn fx:id="atribut_adresaC" prefWidth="210.0" text="Adresa" />
+                              <TableColumn fx:id="atribut_email" prefWidth="210.0" text="E-mail" />
+                          </columns>
+                        </TableView>
+                        <Button fx:id="logoutBtn" layoutX="1012.0" layoutY="660.0" mnemonicParsing="false" onAction="#handleLogout" text="Log Out" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tab_Comenzi" text="Comenzi">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="301.0" text="Datele din tabela comenzi:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                       <TableView fx:id="tabela_Comenzi" layoutX="14.0" layoutY="60.0" prefHeight="600.0" prefWidth="1050.0">
+                          <columns>
+                            <TableColumn fx:id="atribut_idcomanda" prefWidth="175.0" text="idcomanda" />
+                            <TableColumn fx:id="atribut_idfurnizorC" prefWidth="175.0" text="idfurnizor" />
+                              <TableColumn fx:id="atribut_idclientC" prefWidth="175.0" text="idclient" />
+                              <TableColumn fx:id="atribut_dataComanda" prefWidth="175.0" text="Data Comanda" />
+                              <TableColumn fx:id="atribut_status" prefWidth="175.0" text="Status" />
+                              <TableColumn fx:id="atribut_valoareComanda" prefWidth="175.0" text="Valoare Comanda" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="tab_Distribuitori" text="Distribuitori">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="261.0" text="Datele din tabela distribuitori:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tabela_Distribuitori" layoutX="14.0" layoutY="60.0" prefHeight="600.0" prefWidth="1050.0">
+                          <columns>
+                            <TableColumn fx:id="atribut_iddistribuitor" prefWidth="175.0" text="iddistribuitor" />
+                            <TableColumn fx:id="atribut_idprodusD" prefWidth="175.0" text="idprodus" />
+                              <TableColumn fx:id="atribut_idfurnizorD" prefWidth="175.0" text="idfurnizor" />
+                              <TableColumn fx:id="atribut_numeDistribuitor" prefWidth="175.0" text="Nume Distribuitor" />
+                              <TableColumn fx:id="atribut_pretUnitar" prefWidth="175.0" text="Pret Unitar" />
+                              <TableColumn fx:id="atribut_stocDisponibil" prefWidth="175.0" text="Stoc Disponibil" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab fx:id="tab_Furnizori" text="Furnizori">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="379.0" text="Datele din tabela furnizori:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tabela_Furnizori" layoutX="14.0" layoutY="60.0" prefHeight="600.0" prefWidth="1050.0">
+                          <columns>
+                            <TableColumn fx:id="atribut_idfurnizor" prefWidth="262.5" text="idfurnizor" />
+                            <TableColumn fx:id="atribut_numeF" prefWidth="262.5" text="Nume" />
+                              <TableColumn fx:id="atribut_prenumeF" prefWidth="262.5" text="Prenume" />
+                              <TableColumn fx:id="atribut_adresaF" prefWidth="262.5" text="Adresa" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab fx:id="tab_Produse" text="Produse">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Datele din tabela produse:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tabela_Produse" layoutX="14.0" layoutY="60.0" prefHeight="600.0" prefWidth="1050.0">
+                          <columns>
+                            <TableColumn fx:id="atribut_idprodus" prefWidth="262.5" text="idprodus" />
+                            <TableColumn fx:id="atribut_denumire" prefWidth="262.5" text="Denumire" />
+                              <TableColumn fx:id="atribut_descriere" prefWidth="262.5" text="Descriere" />
+                              <TableColumn fx:id="atribut_cantitate" prefWidth="262.5" text="Cantitate" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

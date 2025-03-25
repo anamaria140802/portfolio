@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Studenti UPB/1.0.0": {
+        "runtime": {
+          "Studenti UPB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Studenti UPB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
